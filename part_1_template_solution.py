@@ -101,7 +101,7 @@ class Section1:
         max_Xtest = Xtest.max()
         print(f"1(B) - Length of Xtrain, Xtest, ytrain, ytest is: {length_Xtrain}, {length_Xtest}, {length_ytrain}, {length_ytest}")
         print(f"1(B) - Max value of Xtrain and Xtest is: {max_Xtrain}, {max_Xtest}")
-        answer["length_Xtrain"] = 12214  # Number of samples
+        answer["length_Xtrain"] = 12214  
         answer["length_Xtest"] = 2037
         answer["length_ytrain"] = 12214
         answer["length_ytest"] = 2037
